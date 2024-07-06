@@ -119,7 +119,7 @@ export default function Home() {
         </div>
         
         {/* Footer */}
-        <div className='w-full absolute flex flex-col py-[92px] items-center bg-Cyan mx-auto lg:space-y-0 lg:justify-between lg:flex-row  lg:px-[165px] lg:h-[320px] '>
+        <div className='w-full absolute px-9 flex flex-col py-[92px] items-center bg-Cyan mx-auto md:px-0 lg:space-y-0 lg:justify-between lg:flex-row  lg:px-[165px] lg:h-[320px] '>
           <Image fill src={"/desktop/image-footer.jpg"} className='hidden lg:block  opacity-30 mix-blend-overlay object-cover 'alt='footer images' />
           <Image fill src={"/tablet/image-footer.jpg"} className='sm:hidden md:block lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
           <Image fill src={"/mobile/image-footer.jpg"} className=' block md:hidden lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
