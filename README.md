@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [(https://github.com/Kofiastro/Meet-Landing-Page.git)]
-- Live Site URL:[(https://zesty-syrniki-b86d5b.netlify.app/)]
+- Live Site URL:[(meet-landing-page-gamma-six.vercel.app)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
