@@ -104,11 +104,11 @@ export default function Home() {
           </div>
         </div>
         {/* Content Section */}
-        <div className='flex flex-col mx-auto mb-[184px] justify-center text-center max-w-md items-center space-y-5 mt-20 md:max-w-lg'>
+        <div className='flex flex-col px-9 mx-auto mb-[184px] justify-center text-center md:px-0 max-w-md items-center space-y-5 mt-20 lg:max-w-lg'>
           <h1 className='text-Cyan uppercase font-bold text-base'>
             Built for Modern Use
           </h1>
-          <h1 className='text-DarkPink font-bold text-5xl '>
+          <h1 className='text-DarkPink font-bold text-3xl md:text-5xl '>
             Smarter meetings, all in one place
           </h1>
           <p className='text-AshyPink text-lg font-semibold'>
@@ -120,9 +120,9 @@ export default function Home() {
         
         {/* Footer */}
         <div className='w-full absolute flex flex-col py-[92px] items-center bg-Cyan mx-auto lg:space-y-0 lg:justify-between lg:flex-row  lg:px-[165px] lg:h-[320px] '>
-          <Image fill src={"/desktop/image-footer.jpg"} className='sm:hidden md:hidden lg:block  opacity-30 mix-blend-overlay object-cover 'alt='footer images' />
+          <Image fill src={"/desktop/image-footer.jpg"} className='hidden lg:block  opacity-30 mix-blend-overlay object-cover 'alt='footer images' />
           <Image fill src={"/tablet/image-footer.jpg"} className='sm:hidden md:block lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
-          <Image fill src={"/mobile/image-footer.jpg"} className=' sm:block md:hidden lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
+          <Image fill src={"/mobile/image-footer.jpg"} className=' block md:hidden lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
           <h1 className='relative font-bold text-4xl text-center lg:text-left text-Heaven max-w-sm'>
             Experience more together
           </h1>
