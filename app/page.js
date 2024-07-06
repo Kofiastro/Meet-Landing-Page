@@ -21,6 +21,7 @@ export default function Home() {
               width={394}
               height={303}
               className='hidden lg:block  '
+              alt='Desktop left image'
             />
             {/* Tablet Hero Image */}
             <Image
@@ -28,6 +29,7 @@ export default function Home() {
               className=' block lg:hidden'
               width={820}
               height={303}
+              alt='Desktop hero image'
             />
             
             <div className=' text-center text-wrap mx-auto flex flex-col space-y-6 items-center justify-center pt-14 lg:pt-24 lg:space-y-9   '>
@@ -57,6 +59,7 @@ export default function Home() {
               width={394}
               height={303}
               className=' hidden lg:block'
+              alt='Desktop right image'
             />
            
           </div>
@@ -75,24 +78,28 @@ export default function Home() {
               width={255}
               height={242}
               className='md:block rounded-lg'
+              alt=' gridimages'
             />
             <Image
               src={'/desktop/image-women-videochatting.jpg'}
               width={255}
               height={242}
               className='md:block rounded-lg'
+              alt=' gridimages'
             />
             <Image
               src={'/desktop/image-men-in-meeting.jpg'}
               width={255}
               height={252}
               className=' md:block rounded-lg'
+              alt=' gridimages'
             />
             <Image
               src={'/desktop/image-man-texting.jpg'}
               width={255}
               height={252}
               className=' md:block rounded-lg'
+              alt=' gridimages'
             />
           </div>
         </div>
@@ -113,9 +120,9 @@ export default function Home() {
         
         {/* Footer */}
         <div className='w-full absolute flex flex-col py-[92px] items-center bg-Cyan mx-auto lg:space-y-0 lg:justify-between lg:flex-row  lg:px-[165px] lg:h-[320px] '>
-          <Image fill src={"/desktop/image-footer.jpg"} className='sm:hidden md:hidden lg:block  opacity-30 mix-blend-overlay object-cover '/>
-          <Image fill src={"/tablet/image-footer.jpg"} className='sm:hidden md:block lg:hidden opacity-30 mix-blend-overlay object-cover '/>
-          <Image fill src={"/mobile/image-footer.jpg"} className=' sm:block md:hidden lg:hidden opacity-30 mix-blend-overlay object-cover '/>
+          <Image fill src={"/desktop/image-footer.jpg"} className='sm:hidden md:hidden lg:block  opacity-30 mix-blend-overlay object-cover 'alt='footer images' />
+          <Image fill src={"/tablet/image-footer.jpg"} className='sm:hidden md:block lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
+          <Image fill src={"/mobile/image-footer.jpg"} className=' sm:block md:hidden lg:hidden opacity-30 mix-blend-overlay object-cover 'alt='footer images'/>
           <h1 className='relative font-bold text-4xl text-center lg:text-left text-Heaven max-w-sm'>
             Experience more together
           </h1>

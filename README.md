@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [(https://github.com/Kofiastro/Recipe-Page.git)]
+- Solution URL: [(https://github.com/Kofiastro/Meet-Landing-Page.git)]
 - Live Site URL:[(https://zesty-syrniki-b86d5b.netlify.app/)]
 
 ## My process
@@ -31,7 +31,7 @@ Using Tailwindcss i have been able to work on designs much faster and i want to 
 - TailwindCss and NextJs framework
 
 ### What I learned
-adding mutiple backkground images according to each media breakpoint using NEXTJS
+adding mutiple background images according to each media breakpoint using NEXTJS
 
 
 ```html
