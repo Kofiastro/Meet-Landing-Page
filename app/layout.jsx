@@ -2,6 +2,7 @@ import './globals.css';
 import { redHatDisplay } from '/app/ui/fonts';
 
 export const metadata = {
+  icon: '/favicon.jpg',
   title: 'Meet-Landing-Page',
   description: 'Meet social landing page',
 };
