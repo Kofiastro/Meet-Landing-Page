@@ -16,7 +16,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./assets/images/reci.png)
+![](./public/meet.png)
 
 ### Links
 
@@ -28,14 +28,16 @@ Using Tailwindcss i have been able to work on designs much faster and i want to 
 
 ### Built with
 
-- TailwindCss with flexbox
+- TailwindCss and NextJs framework
 
 ### What I learned
-Using Regular flexBox and adding overlay blend was fully accomplished.
+adding mutiple backkground images according to each media breakpoint using NEXTJS
 
 
 ```html
-   <h1>Nothin New just being consistent</h1>
+    <Image fill src={"/desktop/image-footer.jpg"} className='sm:hidden md:hidden lg:block  opacity-30 mix-blend-overlay object-cover '/>
+    <Image fill src={"/tablet/image-footer.jpg"} className='sm:hidden md:block lg:hidden opacity-30 mix-blend-overlay object-cover '/>
+    <Image fill src={"/mobile/image-footer.jpg"} className=' sm:block md:hidden lg:hidden opacity-30 mix-blend-overlay object-cover '/>
 ```
 
 ## Author
